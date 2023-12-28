@@ -1,0 +1,32 @@
+.header {
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust the size as needed */
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    background-color: #495057;
+  }
+  
+  /* Additional responsive or interactive styles can go here */
+  
